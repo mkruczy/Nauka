@@ -1,0 +1,19 @@
+// currentResult = 18 + userInput;
+
+// currentResult -= 6;
+// currentResult *= 2;
+// currentResult /= 4;
+
+// alert(currentResult);
+// alert(userInput);
+
+// currentResult = add(userInput);
+// alert(currentResult);
+// function add(value) {
+//     return currentResult + value;
+// }
+
+isGreaterThan(3, 5) ? alert('Jest większe! :D') : alert('Jest mniejsze! :D');
+function isGreaterThan(valueA, valueB) {
+    return valueA > valueB;
+}
